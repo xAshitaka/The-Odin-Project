@@ -1,0 +1,80 @@
+/* * {
+    border: 1px black solid;
+    
+} */
+ @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 42px;
+    background-color: white;
+    justify-content: space-between;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.1);
+    border-bottom: 1px solid #ddd;
+    font-family: Besley, serif;
+    padding: 8px;
+    
+
+}
+
+.left-links {
+    display: flex;
+}
+
+.left-links ul li a {
+    color: rebeccapurple;
+}
+
+.left-links ul {
+    text-decoration: none;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-size: 12px;
+}
+
+.logo {
+    align-items: center;
+    font-weight: 900;
+    margin-right: 10px;
+    color: rebeccapurple;
+    font-size: 28px;
+ font-style: italic;
+}
+
+.right-links ul {
+    text-decoration: none;
+    display: flex;
+    
+    align-items: center;
+}
+
+.profile  {
+    background-color: rebeccapurple;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    
+    align-self: center;
+}
+
+.notifs a {
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 10px 3px 10px;
+    margin-right: 5px;
+    font-size: 8px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+a {
+     text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; /* enlève les puces aussi */
+}
