@@ -8,7 +8,7 @@ body {
 }
 
 img {
-  width: 600px;
+  width: 400px;
 }
 
 button {
@@ -21,6 +21,86 @@ button {
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
-  padding: 8px 24px;
-  width: 400px;
+  padding: 4px 16px;
+  width: 300px;
+}
+
+
+/* SOLUTION */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 10px;
+
+}
+
+.left-links {
+  display: flex;
+  gap: 10px;
+}
+
+.left-links a{
+  color: grey;
+}
+
+.right-links {
+  display: flex;
+  gap: 10px;
+}
+
+.right-links a{
+  color: grey;
+}
+
+
+.footer {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.content{
+  align-self: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 5px;
+  
+}
+
+.buttons button {
+  padding: 5px;
+  font-size: 10px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+
+}
+
+ul {
+    margin: 0;          /* Supprime les marges externes */
+    padding: 0;         /* Supprime l'indentation interne */
+}
+
+
+body {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
 }
